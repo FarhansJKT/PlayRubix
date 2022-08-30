@@ -1,6 +1,9 @@
 // Three.js - https://github.com/mrdoob/three.js/
 // RoundedBoxGeometry - https://github.com/pailhead/three-rounded-box
 
+var audio = new Audio('./bg.mp3');
+audio.play();
+
 const animationEngine = ( () => {
 
   let uniqueID = 0;
